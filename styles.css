@@ -27,7 +27,7 @@
     margin-left: 40%;
     margin-right: 60%;
   }
-#nameForm{
+.form-control{
   text-align: center;
 }
 
@@ -38,5 +38,9 @@
 #nameButt{
   background-color: rgb(1, 66, 23);
   border-color: black;
+}
+
+.bg-w:hover{
+  background-color: white;
 }
   

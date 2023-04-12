@@ -1,4 +1,3 @@
-//const myInput = document.querySelector('#nameForm');
 let personName = "";
 const downloadLinks = document.querySelectorAll('[data-download]');
 
@@ -47,7 +46,7 @@ function draw(name) {
     imageObj.onload = function() {
     context.drawImage(imageObj, 0, 0);
     context.font = "40px Calibri";
-    context.fillStyle = "red";
+    context.fillStyle = "white";
     context.fillText(name, 500, 912);
 
     //canvas = document.getElementById('idCanvas');
