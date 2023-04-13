@@ -1,8 +1,10 @@
+
+
 .card {
     /* Add shadows to create the "card" effect */
     margin-top: 10px;
     width: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.87);
+    box-shadow: 0 4px 8px 0 rgba(146, 146, 146, 0.87);
     transition: 0.3s;
     border-radius: 5px;
   }
@@ -11,11 +13,12 @@
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
-  /*header*/
-  .navbar {
-    padding-top: 200px;
-
-  }
+  
+  .bg-p {
+  
+    background: url("images/2b.jpg"); 
+    background-repeat: repeat;
+}
 
   /* Add some padding inside the card container */
   .container {
