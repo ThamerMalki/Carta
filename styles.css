@@ -11,12 +11,19 @@
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
-  
+  /*header*/
+  .navbar {
+    padding-top: 200px;
+
+  }
+
   /* Add some padding inside the card container */
   .container {
     padding: 2px 16px;
   }
-
+  #h2 {
+    color: white;
+  }
   img {
     max-width: 100%;
     border-radius: 5px 5px 0 0;
@@ -36,11 +43,13 @@
 }
 
 #nameButt{
-  background-color: rgb(1, 66, 23);
-  border-color: black;
+  background-color: rgb(158, 158, 158);
+  border-color: rgb(122, 122, 122);
 }
 
 .bg-w:hover{
   background-color: white;
 }
-  
+.ms-5 {
+  margin-left: 2rem!important;
+}
