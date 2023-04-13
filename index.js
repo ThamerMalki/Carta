@@ -20,13 +20,13 @@ downloadLinks.forEach(element=>{
             document.body.removeChild(a);
         }
         else
-            draw(myInput.value);
+            draw(myInput.value,id);
     })
 })
 
 
 
-function draw(name) {
+function draw(name, img) {
 
     const canvas = document.createElement('canvas');
     canvas.setAttribute('id','idCanvas');
@@ -34,12 +34,8 @@ function draw(name) {
     canvas.setAttribute('width','1080');
     canvas.setAttribute('height','1080');
 
-    console.log(canvas);
-
     document.body.appendChild(canvas);
-    //let canvas = document.getElementById('idCanvas');
     let context = canvas.getContext('2d');
-
     let imageObj = new Image();
 
 
@@ -49,15 +45,13 @@ function draw(name) {
     context.fillStyle = "white";
     context.fillText(name, 500, 912);
 
-    //canvas = document.getElementById('idCanvas');
     let dataURL = canvas.toDataURL();
-    console.log(dataURL);
     download();
     document.body.removeChild(canvas);
 
   }
-imageObj.setAttribute('crossOrigin', 'anonymous');
-imageObj.src = "./images/card.png";
+    imageObj.setAttribute('crossOrigin', 'anonymous');
+    imageObj.src = `./images/${img}.png`; // TODO: need to change the image extention depends on the cards
 
 };
 
@@ -66,5 +60,4 @@ let download = function(){
     link.download = 'filename.png';
     link.href = document.getElementById('idCanvas').toDataURL()
     link.click();
-    console.log(link);
   }
