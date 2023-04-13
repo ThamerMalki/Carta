@@ -51,13 +51,13 @@ function draw(name, img) {
 
   }
     imageObj.setAttribute('crossOrigin', 'anonymous');
-    imageObj.src = `./images/${img}.png`; // TODO: need to change the image extention depends on the cards
+    imageObj.src = `./images/${img}.jpg`; // TODO: need to change the image extention depends on the cards
 
 };
 
 let download = function(){
     let link = document.createElement('a');
-    link.download = 'filename.png';
+    link.download = 'filename.jpg';
     link.href = document.getElementById('idCanvas').toDataURL()
     link.click();
   }
