@@ -41,41 +41,50 @@ function draw(name, img) {
 
     imageObj.onload = function() {
     context.drawImage(imageObj, 0, 0);
-    context.font = "40px Calibri";
+    context.textAlign = "center";
+    //context.font = "40px Alexandria";
     //context.fillText(name, 480, 980);
     
     switch(img){
 
         case '1':
             context.fillStyle = "white";
-            context.fillText(name, 500, 912);
+            context.font = "40px Alexandria";
+            context.fillText(name, 550, 880);
             break;
         case '3':
             context.fillStyle = "black";
-            context.fillText(name, 500, 740);
+            context.font = "40px Calibri";
+            context.fillText(name, 570, 740);
             break;
         case '5':
             context.fillStyle = "black";
-            context.fillText(name, 480, 912);
+            context.font = "40px Alexandria";
+            context.fillText(name, 565, 912);
             break;
         case '6':
             context.fillStyle = "black";
-            context.fillText(name, 480, 960);
+            context.font = "40px Alexandria";
+            context.fillText(name, 550, 960);
             break;
         case '7':
             context.fillStyle = "black";
-            context.fillText(name, 480, 960);
+            context.font = "40px Alexandria";
+            context.fillText(name, 570, 920);
             break;
         case '8':
             context.fillStyle = "black";
-            context.fillText(name, 700, 800);
+            context.font = "40px Alexandria";
+            context.fillText(name, 750, 800);
             break;
         case '9':
             context.fillStyle = "black";
-            context.fillText(name, 480, 980);
+            context.font = "40px Alexandria";
+            context.fillText(name, 550, 980);
             break;
         default:
             context.fillStyle = "black";
+            context.font = "40px Alexandria";
             context.fillText(name, 500, 912);
             break;
     }
