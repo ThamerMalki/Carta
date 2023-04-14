@@ -14,11 +14,7 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   
-  .bg-p {
-  
-    background: url("images/2b.jpg"); 
-    background-repeat: repeat;
-}
+ 
 
   /* Add some padding inside the card container */
   .container {
@@ -29,7 +25,7 @@
   }
   img {
     max-width: 100%;
-    border-radius: 5px 5px 0 0;
+   /* border-radius: 5px 5px 0 0; */
   }
 
   .butt1{
@@ -50,9 +46,15 @@
   border-color: rgb(122, 122, 122);
 }
 
-.bg-w:hover{
-  background-color: white;
-}
+
 .ms-5 {
   margin-left: 2rem!important;
+}
+
+.text-uppercase{
+  padding-left: 285px;
+
+}
+.icon {
+  padding-left: 260px;
 }
