@@ -49,42 +49,53 @@ function draw(name, img) {
 
         case '1':
             context.fillStyle = "white";
-            context.font = "40px Alexandria";
+            context.font = "40px Aref Ruqaa";
             context.fillText(name, 550, 880);
             break;
-        case '3':
+        case '2':
             context.fillStyle = "black";
-            context.font = "40px Calibri";
-            context.fillText(name, 570, 740);
+            context.font = "60px Aref Ruqaa";
+            context.fillText(name, 550, 912);
             break;
+        case '3':
+            context.fillStyle = "#605b51";
+            context.font = "50px Aref Ruqaa";
+            context.fillText(name, 550, 730);
+            break;
+        case '4':
+            context.fillStyle = "#6b6b6b";
+            context.font = "40px Aref Ruqaa";
+            context.fillText(name, 550, 920);
+            break;   
+           
         case '5':
-            context.fillStyle = "black";
-            context.font = "40px Alexandria";
-            context.fillText(name, 565, 912);
+            context.fillStyle = "#065067";
+            context.font = "50px Aref Ruqaa";
+            context.fillText(name, 560, 900);
             break;
         case '6':
-            context.fillStyle = "black";
-            context.font = "40px Alexandria";
+            context.fillStyle = "#3A3A3A";
+            context.font = "40px Aref Ruqaa";
             context.fillText(name, 550, 960);
             break;
         case '7':
-            context.fillStyle = "black";
-            context.font = "40px Alexandria";
+            context.fillStyle = "#2d2d2d";
+            context.font = "50px Aref Ruqaa";
             context.fillText(name, 570, 920);
             break;
         case '8':
-            context.fillStyle = "black";
-            context.font = "40px Alexandria";
-            context.fillText(name, 750, 800);
+            context.fillStyle = "#91722f";
+            context.font = "50px Aref Ruqaa";
+            context.fillText(name, 750, 820);
             break;
         case '9':
-            context.fillStyle = "black";
-            context.font = "40px Alexandria";
+            context.fillStyle = "#2d2d2d";
+            context.font = "40px Aref Ruqaa";
             context.fillText(name, 550, 980);
             break;
         default:
             context.fillStyle = "black";
-            context.font = "40px Alexandria";
+            context.font = "40px Aref Ruqaa";
             context.fillText(name, 500, 912);
             break;
     }

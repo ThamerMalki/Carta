@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap');
 
 .card {
     /* Add shadows to create the "card" effect */
@@ -51,10 +51,4 @@
   margin-left: 2rem!important;
 }
 
-.text-uppercase{
-  padding-left: 285px;
 
-}
-.icon {
-  padding-left: 260px;
-}
