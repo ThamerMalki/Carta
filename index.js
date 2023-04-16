@@ -1,5 +1,6 @@
-let personName = "";
 const downloadLinks = document.querySelectorAll('[data-download]');
+let s = document.getElementById('t1');
+document.body.removeChild(s);
 
 downloadLinks.forEach(element=>{
 
@@ -101,12 +102,10 @@ function draw(name, img) {
     }
     
 
-    let dataURL = canvas.toDataURL();
     download();
     document.body.removeChild(canvas);
 
   }
-    imageObj.setAttribute('crossOrigin', 'anonymous');
     imageObj.src = `./images/${img}.jpg`; // TODO: need to change the image extention depends on the cards
 
 };
