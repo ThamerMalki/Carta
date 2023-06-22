@@ -1,3 +1,4 @@
+
 const downloadLinks = document.querySelectorAll('[data-download]');
 let s = document.getElementById('t1');
 document.body.removeChild(s);
@@ -94,6 +95,52 @@ function draw(name, img) {
             context.font = "40px Aref Ruqaa";
             context.fillText(name, 550, 980);
             break;
+        case '11':
+            context.fillStyle = "#ffffff";
+            context.font = "40px Aref Ruqaa";
+            context.fillText(name, 560, 1020);
+            break;
+        case '22':
+            context.fillStyle = "#fffff";
+            context.font = "40px Aref Ruqaa";
+            context.fillText(name, 780, 790);
+            break;
+        case '33':
+            context.fillStyle = "#666666";
+            context.font = "45px Aref Ruqaa";
+            context.fillText(name, 550, 706);
+            break;
+        case '44':
+            context.fillStyle = "#3B7A82";
+            context.font = "50px Aref Ruqaa";
+            context.fillText(name, 550, 980);
+            break;
+        case '55':
+            context.fillStyle = "#fffff";
+            context.font = "40px Aref Ruqaa";
+            context.fillText(name, 550, 980);
+            break;
+        case '66':
+            context.fillStyle = "#ffffff";
+            context.font = "50px Aref Ruqaa";
+            context.fillText(name, 540, 980);
+            break;
+        case '77':
+            context.fillStyle = "#fffff";
+            context.font = "45px Aref Ruqaa";
+            context.fillText(name, 550, 440);
+            break;
+        case '88':
+            context.fillStyle = "#fffff";
+            context.font = "40px Aref Ruqaa";
+            context.fillText(name, 550, 485);
+            break;
+        case '99':
+            context.fillStyle = "#97601f";
+            context.font = "45px Aref Ruqaa";
+            context.fillText(name, 540, 830);
+            break;
+
         default:
             context.fillStyle = "black";
             context.font = "40px Aref Ruqaa";
@@ -116,3 +163,6 @@ let download = function(){
     link.href = document.getElementById('idCanvas').toDataURL()
     link.click();
   }
+
+
+  
