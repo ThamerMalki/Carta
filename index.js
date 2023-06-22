@@ -94,6 +94,11 @@ function draw(name, img) {
             context.font = "40px Aref Ruqaa";
             context.fillText(name, 550, 980);
             break;
+            case '11':
+                context.fillStyle = "#fffff";
+                context.font = "40px Aref Ruqaa";
+                context.fillText(name, 550, 980);
+                break;
         default:
             context.fillStyle = "black";
             context.font = "40px Aref Ruqaa";
